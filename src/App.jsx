@@ -1,8 +1,9 @@
+import { useState } from "react";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import TopBar from "./layouts/TopBar";
-import SidBar from "./layouts/SideBar";
+import SideBar from "./layouts/SideBar";
 import Dashboard from "./pages/Dashboard";
 import Invoices from "./pages/Invoices";
 import Contacts from "./pages/Contacts";
@@ -15,14 +16,17 @@ import Bar from "./components/charts/Bar";
 import Pie from "./components/charts/Pie";
 import Line from "./components/charts/line";
 
+
 function App() {
   const [theme, colorMode] = useMode();
+  const [isSidebar, setIsSidebar] = useState(true);
 
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
+          <SideBar isSidebar={isSidebar} />
           <main className="content">
             <TopBar />
             <Routes>
