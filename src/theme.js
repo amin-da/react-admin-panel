@@ -1,7 +1,6 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
 
-
 // color design tokens export
 export const tokens = (mode) => ({
   ...(mode === "dark"
@@ -21,8 +20,10 @@ export const tokens = (mode) => ({
           100: "#d0d1d5",
           200: "#a1a4ab",
           300: "#727681",
-          400: "#1F2A40",
-          500: "#141b2d",
+          400: "#111015",
+          500: "#18181C",
+          // 400: "#1F2A40",
+          // 500: "#141b2d",
           600: "#101624",
           700: "#0c101b",
           800: "#080b12",

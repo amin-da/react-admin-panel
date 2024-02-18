@@ -19,6 +19,7 @@ import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
+
   const colors = tokens(theme.palette.mode);
   return (
     <MenuItem
@@ -41,6 +42,7 @@ const SideBar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
 
+ 
   return (
     <Box
       sx={{
@@ -54,10 +56,14 @@ const SideBar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#868dfb !important",
+          color: `${
+            theme.palette.mode === "dark" ? "#77FF61" : "#0aaa6f"
+          } !important`,
         },
         "& .pro-menu-item.active": {
-          color: "#6870fa !important",
+          color: `${
+            theme.palette.mode === "dark" ? "#77FF61" : "#0aaa6f"
+          } !important`,
         },
       }}
     >
@@ -90,7 +96,7 @@ const SideBar = () => {
           </MenuItem>
 
           {!isCollapsed && (
-            <Box my="25px" >
+            <Box my="25px">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
@@ -109,7 +115,7 @@ const SideBar = () => {
                 >
                   Amin da
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
+                <Typography variant="h5" color={colors.grey[400]}>
                   VP Admin
                 </Typography>
               </Box>
