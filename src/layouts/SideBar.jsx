@@ -57,12 +57,12 @@ const SideBar = () => {
         },
         "& .pro-inner-item:hover": {
           color: `${
-            theme.palette.mode === "dark" ? "#77FF61" : "#0aaa6f"
+            theme.palette.mode === "dark" ? "#77FF61" : "#0090FF"
           } !important`,
         },
         "& .pro-menu-item.active": {
           color: `${
-            theme.palette.mode === "dark" ? "#77FF61" : "#0aaa6f"
+            theme.palette.mode === "dark" ? "#77FF61" : "#0090FF"
           } !important`,
         },
       }}
