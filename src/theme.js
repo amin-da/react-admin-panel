@@ -145,6 +145,9 @@ export const themeSettings = (mode) => {
             background: {
               default: colors.primary[500],
             },
+            buttonColor :{
+              main: colors.greenAccent[700],
+            }
           }
         : {
             // palette values for light mode
@@ -162,6 +165,9 @@ export const themeSettings = (mode) => {
             background: {
               default: "#fcfcfc",
             },
+            buttonColor :{
+              main: colors.greenAccent[700],
+            }
           }),
     },
     typography: {
