@@ -11,11 +11,10 @@ import Calendar from "./pages/Calendar";
 import Geography from "./pages/Geography";
 import Team from "./pages/Team";
 import Form from "./pages/Form";
-import FAQ from "./pages/FAQ";
+import FAQ from "./pages/Faq";
 import Bar from "./components/charts/Bar";
 import Pie from "./components/charts/Pie";
 import Line from "./components/charts/line";
-
 
 function App() {
   const [theme, colorMode] = useMode();
