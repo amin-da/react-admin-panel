@@ -15,6 +15,7 @@ import FAQ from "./pages/Faq";
 import Bar from "./components/charts/Bar";
 import Pie from "./components/charts/Pie";
 import Line from "./components/charts/line";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -41,6 +42,7 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
             </Routes>
+            <SpeedInsights />
           </main>
         </div>
       </ThemeProvider>
