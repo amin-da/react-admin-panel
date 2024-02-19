@@ -12,10 +12,10 @@ import Geography from "./pages/Geography";
 import Team from "./pages/Team";
 import Form from "./pages/Form";
 import FAQ from "./pages/Faq";
-import Bar from "./components/charts/Bar";
+import Bar from "./pages/Bar";
 import Pie from "./components/charts/Pie";
 import Line from "./components/charts/line";
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [theme, colorMode] = useMode();
