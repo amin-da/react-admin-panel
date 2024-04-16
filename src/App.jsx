@@ -14,7 +14,7 @@ import Form from "./pages/Form";
 import FAQ from "./pages/Faq";
 import Bar from "./pages/Bar";
 import Pie from "./pages/Pie";
-import Line from "./components/charts/line";
+import Line from "./pages/Line";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
