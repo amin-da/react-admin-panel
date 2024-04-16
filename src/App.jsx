@@ -13,7 +13,7 @@ import Team from "./pages/Team";
 import Form from "./pages/Form";
 import FAQ from "./pages/Faq";
 import Bar from "./pages/Bar";
-import Pie from "./components/charts/Pie";
+import Pie from "./pages/Pie";
 import Line from "./components/charts/line";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
