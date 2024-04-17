@@ -9,4 +9,4 @@ This project is modern react admin panel. I use Materil UI V5 & React Router V6 
 * FAQ Page
 * Data Visulazation with modern Charts
 
-##### [demo](https://react-admin-panel-lake.vercel.app/) 
+##### online preview : [demo](https://react-admin-panel-lake.vercel.app/) 
