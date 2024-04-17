@@ -1,8 +1,19 @@
 # React Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is modern react admin panel. I use Materil UI V5 & React Router V6 & and formik and yup for handle and validate form inputes.
+#### Some featuer is :
+* dark & light mode
+* modern table with reach featuer : support filteringt & sorting & paginations, export to csv file, add or remove columns and etc.
+* creating user
+* full reach calneder (add event and ...)
+* FAQ Page
+* Data Visulazation with modern Charts
 
-Currently, two official plugins are available:
+#### online preview : [Admin panel](https://react-admin-panel-lake.vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### isntalliation 
+first clone this repository and then :
+```
+npm i
+npm run dev
+```
