@@ -9,7 +9,7 @@ import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../components/Header";
 import LineChart from "../components/charts/lineChart";
 import BarChart from "../components/charts/BarChart";
-import GeoGraphyChart from "../components/charts/GeographyChart";
+import GeoGraphyChart from "../components/charts/GeoGraphyChart";
 import StatBox from "../components/StatBox";
 import ProgressCircle from "../components/ProgressCircle";
 
