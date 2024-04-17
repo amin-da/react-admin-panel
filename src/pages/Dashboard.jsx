@@ -42,7 +42,7 @@ const Dashboard = () => {
       <Box
         display="grid"
         gridTemplateColumns="repeat(12, 1fr)"
-        gridAutoRows="136px"
+        gridAutoRows="145px"
         gap="3px"
       >
         {/* ROW 1 */}
