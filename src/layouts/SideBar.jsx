@@ -97,11 +97,6 @@ const SideBar = () => {
           {!isCollapsed && (
             <Box my="25px">
               <Box display="flex" justifyContent="center" alignItems="center">
-                <a
-                  href="https://www.linkedin.com/in/amin-darabnia/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
                   <img
                     alt="profile-user"
                     width="140px"
@@ -109,7 +104,6 @@ const SideBar = () => {
                     src={`../../assets/amin.png`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                   />
-                </a>
               </Box>
               <Box textAlign="center">
                 <Typography
