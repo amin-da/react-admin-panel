@@ -11,9 +11,9 @@ This project is modern react admin panel. I use Materil UI V5 & React Router V6 
 
 ##### online preview : [demo](https://react-admin-panel-lake.vercel.app/) 
 
-##### isntalliation :
+#### isntalliation 
+first clone this project and then :
 ```
-clone this project
 npm i
 npm run dev
 ```
