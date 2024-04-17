@@ -1,7 +1,7 @@
 # React Admin Panel
 
-This project is modern react admin panel.I use Materil UI V5 for ui & React Router V6 for routing & and formik and yup for handle and validate form inputes.
-some featuer is :
+This project is modern react admin panel. I use Materil UI V5 & React Router V6 & and formik and yup for handle and validate form inputes.
+###### some featuer is :
 * dark & light mode
 * modern table with reach featuer : filteringt & sorting , export to csv file, add or remove columns
 * creating user
